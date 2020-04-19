@@ -42,4 +42,4 @@ del_w = [learnrate * error_term * x[0],
          learnrate * error_term * x[1]]
 # or del_w = learnrate * error_term * x
 
-rint(del_w)
+print(del_w)
